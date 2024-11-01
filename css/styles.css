@@ -1,0 +1,596 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bakery-text {
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 80px;
+  margin: 20px;
+}
+
+button {
+  margin: 20px 5px;
+  padding: 15px;
+  border-radius: 7px;
+  padding: 15px 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: white;
+}
+
+.color {
+  background-color: #bba36a;
+  border: 2px solid #bba36a;
+}
+
+.transparent {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.who {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.who-img img {
+  width: 100%;
+}
+
+.who-text {
+  width: 45%;
+  margin-block: 40px;
+}
+
+.who-img {
+  width: 40%;
+  margin-block: 70px;
+}
+
+.who-text h3 {
+  margin-left: 50px;
+}
+
+.who-text p {
+  margin-left: 50px;
+}
+
+.who-icons {
+  list-style-type: none;
+}
+
+.who-icons li {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.who-icons img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.who-text {
+  padding-left: 0;
+}
+
+.location {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.location-text {
+  width: 45%;
+  margin-block: 40px;
+}
+
+.location-img {
+  width: 40%;
+  margin-block: 70px;
+}
+
+.location-img img {
+  width: 100%;
+}
+
+.our {
+  text-align: center;
+}
+
+.our-content {
+  width: 95%;
+  margin: auto;
+}
+
+.our-text {
+  text-align: center;
+}
+
+.our-img {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 30%;
+  margin: 20px;
+}
+
+.our-img img {
+  width: 100%;
+}
+
+.our h2 {
+  margin-top: 70px;
+}
+
+.Contact {
+  background-color: #f8f8f8;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-info,
+.contact-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+}
+
+.contact-info ul li img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-color: #8e7754;
+  border-radius: 50%;
+}
+
+.contact-info ul li span {
+  vertical-align: middle;
+  color: #6b4b2f;
+}
+
+.contact-img img {
+  width: 100%;
+}
+
+.section {
+  background-color: #403d38;
+
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.description .about p {
+  width: 80%;
+
+}
+
+
+.description ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.description h3 {
+  font-size: 24px;
+}
+
+.opening,
+.contact-last,
+.why,
+.about {
+
+  width: 22%;
+  /* padding-left: 20px; */
+  /* display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 24%;
+  margin: 5px; */
+}
+
+.why,
+.opening,
+.contact-last ul li {
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.contact-last {
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+
+}
+
+.contact-last ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-last ul li {
+  margin: 10px 0;
+}
+
+.contact-last ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #353330;
+}
+
+.bakery-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.foot-text p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.foot-icon img {
+  width: 40px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+    margin: 10px;
+    font-weight: 200;
+  }
+
+  button {
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .bakery-text {
+    padding: 100px 0;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 300;
+  }
+
+  .location-text {
+    width: 100%;
+  }
+
+  .location-img {
+    width: 100%;
+  }
+
+  .our-img {
+    width: 100%;
+  }
+
+
+  .who-text {
+    width: 100%;
+
+  }
+
+  .who-img {
+    width: 100%;
+
+  }
+
+  .our h2 {
+    margin-top: 50px;
+  }
+
+  .contact-info,
+  .contact-img {
+    width: 100%;
+  }
+
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .contact-info ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contact-info ul li img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #8e7754;
+    border-radius: 50%;
+  }
+
+  .contact-info ul li span {
+    vertical-align: middle;
+    color: #6b4b2f;
+  }
+
+  .contact-img img {
+    width: 100%;
+  }
+
+
+
+
+
+
+  .about,
+  .why,
+  .opening,
+  .contact-last {
+    width: 100%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  .about,
+  .why,
+  .opening,
+  .contact-last {
+    width: 100%;
+  }
+
+
+  .who-text {
+    width: 100%;
+
+  }
+
+  .who-img {
+    width: 100%;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .about,
+  .why,
+  .opening,
+  .contact-last {
+    width: 50%;
+  }
+
+  .who-text {
+    width: 50%;
+
+  }
+
+  .who-img {
+    width: 50%;
+
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+    margin: 20px;
+    font-weight: 200;
+  }
+
+  button {
+    margin: 15px 10px;
+    padding: 20px;
+    font-size: 17px;
+    margin-top: 17px;
+  }
+
+
+
+  .bakery-text {
+    padding: 150px 0;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: 400;
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .location-text,
+  .location-img {
+    width: 100%;
+  }
+
+  .our-img {
+    width: 100%;
+  }
+
+  .our h2 {
+    margin-top: 50px;
+  }
+
+  .contact-info,
+  .contact-img {
+    width: 100%;
+  }
+
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .contact-info ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contact-info ul li img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #8e7754;
+    border-radius: 50%;
+  }
+
+  .contact-info ul li span {
+    vertical-align: middle;
+    color: #6b4b2f;
+  }
+
+  .contact-img img {
+    width: 100%;
+  }
+
+
+
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #353330;
+  }
+
+  .foot-text p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .foot-icon img {
+    width: 40px;
+    margin: 10px;
+    vertical-align: middle;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+  .about,
+  .why,
+  .opening,
+  .contact-last {
+
+    width: 33%;
+
+  }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+  .about,
+  .why,
+  .opening,
+  .contact-last {
+
+    width: 25%;
+
+  }
+
+
+
+}
